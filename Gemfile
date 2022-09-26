@@ -89,6 +89,10 @@ group :development do
   gem "yard"
 end
 
+group :development do 
+	 gem "pg", "~> 1.2.2"
+end
+
 group :test do
   gem "rails-dom-testing"
   gem 'mocha', '>= 1.4.0'
