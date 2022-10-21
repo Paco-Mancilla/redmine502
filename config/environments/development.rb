@@ -3,8 +3,11 @@
 require 'active_support/core_ext/integer/time'
 
 Rails.application.configure do
+<<<<<<< HEAD
 
 config.read_encrypted_secrets = true
+=======
+>>>>>>> 0ea5e0e (Commit)
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time

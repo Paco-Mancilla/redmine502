@@ -2,10 +2,14 @@
 
 require 'active_support/core_ext/integer/time'
 
+<<<<<<< HEAD
 
 Rails.application.configure do
 
 config.read_encrypted_secrets = true
+=======
+Rails.application.configure do
+>>>>>>> 0ea5e0e (Commit)
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -27,7 +31,11 @@ config.read_encrypted_secrets = true
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
+<<<<<<< HEAD
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+=======
+  # config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+>>>>>>> 0ea5e0e (Commit)
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.asset_host = 'http://assets.example.com'

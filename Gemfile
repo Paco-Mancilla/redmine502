@@ -89,10 +89,13 @@ group :development do
   gem "yard"
 end
 
+<<<<<<< HEAD
 group :development do 
 	 gem "pg", "~> 1.2.2"
 end
 
+=======
+>>>>>>> 0ea5e0e (Commit)
 group :test do
   gem "rails-dom-testing"
   gem 'mocha', '>= 1.4.0'
@@ -118,5 +121,8 @@ end
 Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |file|
   eval_gemfile file
 end
+<<<<<<< HEAD
 
 gem "webrick", "~> 1.7"
+=======
+>>>>>>> 0ea5e0e (Commit)

@@ -15,6 +15,26 @@ pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
 .wiki h5 {font-size: 1em;}
 .wiki h6 {font-size: 1em; color: #8e8e8e;}
 
+<<<<<<< HEAD
+=======
+#logo{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+  background-color:#fff;
+  border-radius: 80%;
+  margin-top: 15px;
+  align-self: auto;
+}
+
+#title{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+>>>>>>> 0ea5e0e (Commit)
 /***** Layout *****/
 #wrapper {
   min-height: inherit;
@@ -24,7 +44,11 @@ pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 #top-menu {background: #3E5B76; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 10px 0px 12px;}
+=======
+#top-menu {background: #941e21; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 10px 0px 12px;}
+>>>>>>> 0ea5e0e (Commit)
 #top-menu ul {margin: 0;  padding: 0;}
 #top-menu li {
   float:left;
@@ -38,7 +62,11 @@ pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
 
 #account {float:right;}
 
+<<<<<<< HEAD
 #header {min-height:5.3em;margin:0;background-color:#628DB6;color:#f8f8f8; padding: 4px 16px 20px 16px; position:relative;}
+=======
+#header {min-height:5.3em;margin:0;background-color:#cf2e2e;color:#f8f8f8; padding: 4px 16px 20px 16px; position:relative;}
+>>>>>>> 0ea5e0e (Commit)
 #header a {color:#f8f8f8;}
 #header h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 #header h1 .breadcrumbs { display:block; font-size: .5em; font-weight: normal; }
